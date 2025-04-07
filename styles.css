@@ -1,0 +1,53 @@
+#form-contact-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input{
+    margin-bottom: 2.6rem;
+    border-radius: 5px;
+    border: 1px solid rgb(47, 47, 47);
+}
+
+input{
+    height: 3rem;
+}
+
+#textarea{
+   
+        height: 10rem;
+        width: 100%; /* Opcional: ajusta el ancho según necesites */
+        resize: vertical; /* Permite cambiar el tamaño solo verticalmente */  
+}
+
+.imagen-perfil{
+   display: block;
+   /* box-shadow: 0px 0px 5px gray;    */
+   margin: 20px auto;
+   margin-top: 3rem;
+}
+
+.imagen-sobremi{
+    /* border-radius: 100%; */
+    /* border: 1px solid gray; */
+    box-shadow: 0px 0px 5px gray;       
+}
+
+/* .button-center{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+button{
+    border: 1px solid gray;
+    background-color: rgba(211, 211, 211, 0.507);
+    border-radius: 5px;
+    width: 10rem;
+    height: 2.5rem;
+}
+
+button:hover{
+    background-color: rgb(176, 175, 175);
+} */
