@@ -19,7 +19,9 @@ const Introduction = () => {
                                 <Mail className="mr-2" /> Contacta Conmigo
                             </Link>
 
+
                             <Link className={buttonVariants({variant: 'secondary'})} href="/CV-LUCAS-CID.pdf" target="_blank" download="LUCAS-CID-CV.pdf">
+                         
                         <Paperclip className="mr-2"/> Descargar CV
                         </Link> 
                             
