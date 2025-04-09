@@ -132,51 +132,51 @@ export const dataExperience = [
         title: "Frontend Development  💄",
         experience: [
             {
-                name: "HTML",
+                name: "HTML & CSS",
                 subtitle: "Experimentado",
-                value: 88,
+                value: 85,
             },
             {
-                name: "CSS",
+                name: "Bootstrap",
                 subtitle: "Experimentado",
                 value: 80,
             },
             {
-                name: "JavaScript",
+                name: "Tailwind CSS",
                 subtitle: "Intermedio",
                 value: 70,
             },
             {
-                 name: "Next JS",
-                 subtitle: "Intermeddio",
-                 value: 60,
+                 name: "JavaScript",
+                 subtitle: "Intermedio",
+                 value: 70,
              },
             {
                 name: "React",
                 subtitle: "Intermedio",
-                value: 65,
+                value: 70,
             },
             {
-                name: "Tailwind CSS",
+                name: "Next JS",
                 subtitle: "Intermedio",
-                value: 68,
+                value: 65,
             },
         ],
     },
     {
         id: 2,
-        title: "Backend Development 🐱‍👤",
+        title: "Backend Development  🕵️‍♂️",
         experience: [
             {
                 name: "Node JS",
                 subtitle: "Básico",
                 value: 60,
             },
-            {
-                name: "Mongo DB",
-                subtitle: "Básico",
-                value: 50,
-            },
+            // {
+            //     name: "Mongo DB",
+            //     subtitle: "Básico",
+            //     value: 50,
+            // },
             {
                 name: "Python",
                 subtitle: "Básico",
