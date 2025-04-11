@@ -157,7 +157,7 @@ export const dataExperience = [
                 value: 70,
             },
             {
-                name: "Next JS",
+                name: "NextJS",
                 subtitle: "Intermedio",
                 value: 65,
             },
@@ -168,7 +168,7 @@ export const dataExperience = [
         title: "Backend Development  🕵️‍♂️",
         experience: [
             {
-                name: "Node JS",
+                name: "NodeJS",
                 subtitle: "Básico",
                 value: 60,
             },
@@ -183,7 +183,7 @@ export const dataExperience = [
                 value: 50,
             },
             {
-                name: "MySQL",
+                name: "PostgreSQL",
                 subtitle: "Básico",
                 value: 60,
             },
