@@ -63,7 +63,7 @@ const Experience = () => {
     };
 
     const animateBar = (key: string, finalValue: number) => {
-        const duration = 1500; // 1.5 segundos
+        // const duration = 1500; 
         const steps = 60; // 60 pasos para animación suave
         const increment = finalValue / steps;
         let currentValue = 0;
