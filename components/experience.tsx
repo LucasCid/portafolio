@@ -8,6 +8,37 @@ import { BadgeCheck } from "lucide-react";
 import { Progress } from "./ui/progress";
 import { useEffect, useRef, useState } from "react";
 
+// const Experience = () => {
+//     const sectionRef = useRef<HTMLDivElement>(null);
+//     const [isVisible, setIsVisible] = useState(false);
+//     const [animatedValues, setAnimatedValues] = useState<{ [key: string]: number }>({});
+
+//     useEffect(() => {
+//         const observer = new IntersectionObserver(
+//             ([entry]) => {
+//                 if (entry.isIntersecting && !isVisible) {
+//                     setIsVisible(true);
+//                     // Iniciar animación de las barras
+//                     animateProgressBars();
+//                 }
+//             },
+//             {
+//                 threshold: 0.3, // Se activa cuando el 30% de la sección es visible
+//                 rootMargin: "-50px"
+//             }
+//         );
+
+//         if (sectionRef.current) {
+//             observer.observe(sectionRef.current);
+//         }
+
+//         return () => {
+//             if (sectionRef.current) {
+//                 observer.unobserve(sectionRef.current);
+//             }
+//         };
+//     }, [isVisible]);
+
 const Experience = () => {
     const sectionRef = useRef<HTMLDivElement>(null);
     const [isVisible, setIsVisible] = useState(false);
@@ -18,13 +49,15 @@ const Experience = () => {
             ([entry]) => {
                 if (entry.isIntersecting && !isVisible) {
                     setIsVisible(true);
-                    // Iniciar animación de las barras
-                    animateProgressBars();
+                    // Pequeño delay para asegurar que el DOM esté listo
+                    setTimeout(() => {
+                        animateProgressBars();
+                    }, 100);
                 }
             },
             {
-                threshold: 0.3, // Se activa cuando el 30% de la sección es visible
-                rootMargin: "-50px"
+                threshold: 0.1, // Más sensible
+                rootMargin: "0px" // Sin margen negativo
             }
         );
 
@@ -38,6 +71,8 @@ const Experience = () => {
             }
         };
     }, [isVisible]);
+
+    // ... resto del código
 
     const animateProgressBars = () => {
         // Recopilar todos los valores únicos de las barras
