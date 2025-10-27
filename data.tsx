@@ -75,8 +75,25 @@ export const dataSlider = [
 ]
 
 export const dataPortfolio = [
+   
     {
         id: 1,
+        title: "AromasCafé",
+        description: "NextJs | React | Tailwind CSS | Strapi | PostgreSQL",
+        image: "/aromascafe.png",
+        urlGithub: "https://github.com/LucasCid/aromas-cafe",
+        urlDemo: "https://aromas-cafe.onrender.com/",
+    },
+    {
+        id: 2,
+        title: "AdminDinero",
+        description: "React | Vite | Tailwind CSS | Firebase",
+        image: "/admindinero2.png",
+        urlGithub: "https://github.com/LucasCid/aplicacion-gastos",
+        urlDemo: "https://aplicacion-gastos-git-master-lucas-cids-projects.vercel.app/",
+    },
+     {
+        id: 3,
         title: "CL Real State",
         description: "NextJs | React | Tailwind CSS | TypeScript",
         image: "/clrealstate.png",
@@ -84,124 +101,122 @@ export const dataPortfolio = [
         urlDemo: "https://clrealstate.netlify.app/",
     },
     {
-        id: 2,
-        title: "CL La Relojeria",
-        description: "HTML | CSS | Javascript | Bootstrap",
-        image: "/larelojeria2.png",
-        urlGithub: "https://github.com/LucasCid/larelojeriacl",
-        urlDemo: "https://lucascid.github.io/larelojeriacl/",
-    },
-    {
-        id: 3,
-        title: "El Granel de la Tita",
-        description: "HTML | CSS | Javascript | Bootstrap",
-        image: "/elgraneldelatita.png",
-        urlGithub: "https://github.com/LucasCid/elgraneldelatita",
-        urlDemo: "https://elgraneldelatita.netlify.app/",
-    },
-    {
         id: 4,
-        title: "App Tareas 'To Do List'",
-        description: "HTML | CSS | Javascript ",
+        title: "CloudTask",
+        description: "React | CSS | Firebase ",
         image: "/apptareas.png",
-        urlGithub: "https://github.com/LucasCid/listadetareas",
-        urlDemo: "https://lucascid.github.io/listadetareas/",
+        urlGithub: "https://github.com/LucasCid/todolistreact",
+        urlDemo: "https://reactappweatherandtask.netlify.app/",
     },
-    {
-        id: 5,
-        title: "Juego de Memoria",
-        description: "HTML | CSS | Javascript ",
-        image: "/juegojs.png",
-        urlGithub: "https://github.com/LucasCid/juegomemoriajs",
-        urlDemo: "https://lucascid.github.io/juegomemoriajs/",
-    },
-    {
-        id: 6,
-        title: "Aplicación Clima",
-        description: "HTML | CSS | Javascript | React",
-        image: "/appclima.png",
-        urlGithub: "https://github.com/LucasCid/weatherapp",
-        urlDemo: "https://lucascid.github.io/weatherapp/",
-    },
+    // {
+    //     id: 5,
+    //     title: "Juego de Memoria",
+    //     description: "HTML | CSS | Javascript ",
+    //     image: "/juegojs.png",
+    //     urlGithub: "https://github.com/LucasCid/juegomemoriajs",
+    //     urlDemo: "https://lucascid.github.io/juegomemoriajs/",
+    // },
+    // {
+    //     id: 6,
+    //     title: "Aplicación Clima",
+    //     description: "HTML | CSS | Javascript | React",
+    //     image: "/appclima.png",
+    //     urlGithub: "https://github.com/LucasCid/weatherapp",
+    //     urlDemo: "https://lucascid.github.io/weatherapp/",
+    // },
 ];
 
 
 export const dataExperience = [
-    {
-        id: 1,
-        title: "Frontend Development  💄",
-        experience: [
-            {
-                name: "HTML & CSS",
-                subtitle: "Experimentado",
-                value: 85,
-            },
-            {
-                name: "Bootstrap",
-                subtitle: "Experimentado",
-                value: 80,
-            },
-            {
-                name: "Tailwind CSS",
-                subtitle: "Intermedio",
-                value: 70,
-            },
-            {
-                 name: "JavaScript",
+     {
+         id: 1,
+         title: "Frontend Development  💄",
+         experience: [
+             {
+                 name: "HTML & CSS",
+                 subtitle: "Experimentado",
+                 value: 85,
+             },
+             {
+                 name: "Bootstrap",
+                 subtitle: "Experimentado",
+                 value: 80,
+             },
+             {
+                 name: "Tailwind CSS",
                  subtitle: "Intermedio",
                  value: 70,
              },
-            {
-                name: "React",
-                subtitle: "Intermedio",
-                value: 70,
-            },
-            {
-                name: "NextJS",
-                subtitle: "Intermedio",
-                value: 65,
-            },
-        ],
-    },
+             {
+                  name: "JavaScript",
+                  subtitle: "Intermedio",
+                  value: 70,
+              },
+             {
+                 name: "ReactJS",
+                 subtitle: "Intermedio",
+                 value: 70,
+             },
+             {
+                 name: "NextJS",
+                 subtitle: "Intermedio",
+                 value: 65,
+             },
+         ],
+     },
+
+    //   {
+    //       id: 2,
+    //       title: "Backend Development  🕵️‍♂️",
+    //       experience: [
+    //           {
+    //               name: "NodeJS",
+    //               subtitle: "Básico",
+    //               value: 60,
+    //           },
+             
+    //           {
+    //               name: "PostgreSQL",
+    //               subtitle: "Básico",
+    //               value: 60,
+    //           },
+
+              
+              
+    //       ],
+         
+    //   },
+
     {
-        id: 2,
-        title: "Backend Development  🕵️‍♂️",
-        experience: [
-            {
-                name: "NodeJS",
-                subtitle: "Básico",
-                value: 60,
-            },
-            // {
-            //     name: "Mongo DB",
-            //     subtitle: "Básico",
-            //     value: 50,
-            // },
-            {
-                name: "Python",
-                subtitle: "Básico",
-                value: 50,
-            },
-            {
-                name: "PostgreSQL",
-                subtitle: "Básico",
-                value: 60,
-            },
-            // {
-            //     name: "PHP",
-            //     subtitle: "Experimentado",
-            //     value: 60,
-            // },
-            // {
-            //     name: "Django",
-            //     subtitle: "Basic",
-            //     value: 60,
-            // },
-        ],
-    },
-];
+    id: 2,
+    title: "Backend Development y Herramientas 🕵️‍♂️",
+    experience: [
+        {
+            name: "NodeJS & Express",
+            subtitle: "Básico",
+            value: 50,
+        },
+        {
+            name: "PostgreSQL",
+            subtitle: "Básico",
+            value: 60,
+        },
+        {
+            name: "Strapi",
+            subtitle: "Básico",
+            value: 50,
+        },
+        {
+            name: "Git & Github",
+            subtitle: "Intermedio",
+            value: 65,
+        },
+    ],
+}
 
-
+     
+      
+ ];
 export const dataServices = [
     {
         id: 1,

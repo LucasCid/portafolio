@@ -8,6 +8,10 @@ import Contact from "@/components/contact"
 // import ContactForm from "@/components/contact-form";
 import Footer from "@/components/footer";
 
+
+
+
+
 export default function Home() {
   return (
     <main className="pb-40">

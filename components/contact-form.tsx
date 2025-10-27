@@ -2,7 +2,7 @@
  import { Button } from "./ui/button";
  const ContactForm = () => {
      return (
-         <div id="contact-form">
+         <div id="contact-form" className="pt-4 sm:pt-0">
              <form action="https://formspree.io/f/mdkozvby" method="POST" id="form-contact-form">
                 
                  <input type="name" name="nombre" id="input-name" 

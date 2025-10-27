@@ -10,13 +10,13 @@ export async function POST(req: Request){
             const data = await resend.emails.send({
                 from: "Acme <onboarding@ressed.dev>",
                 to: ["lucascidcanete@gmail.com"],
-                subject: "Tarredev landing",
+                subject: "Lucas Cid landing",
                 react: EmailTemplate({
                     firstName: dataForm.username,
                     message: dataForm.mesage,
                     email: dataForm.email,
                 }),
-                text: "Tarredev",
+                text: "LucasCid",
             });
             return Response.json(data);
         }catch (error){
