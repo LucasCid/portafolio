@@ -77,7 +77,7 @@ const Introduction = () => {
 
                             <Link 
                                 className={`${buttonVariants({variant: 'secondary'})} hover:scale-105 transition-transform duration-300`} 
-                                href="/CV-LUCAS-CID.pdf" 
+                                href="/LUCASCID.pdf" 
                                 target="_blank" 
                                 download="LUCAS-CID-CV.pdf"
                             >

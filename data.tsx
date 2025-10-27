@@ -108,14 +108,14 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/LucasCid/todolistreact",
         urlDemo: "https://reactappweatherandtask.netlify.app/",
     },
-    // {
-    //     id: 5,
-    //     title: "Juego de Memoria",
-    //     description: "HTML | CSS | Javascript ",
-    //     image: "/juegojs.png",
-    //     urlGithub: "https://github.com/LucasCid/juegomemoriajs",
-    //     urlDemo: "https://lucascid.github.io/juegomemoriajs/",
-    // },
+     {
+         id: 5,
+         title: "Complementarmiisapre.cl",
+         description: "HTML | CSS | Javascript ",
+         image: "/segurosbupa.png",
+         urlGithub: "https://github.com/LucasCid/segurosbupa",
+         urlDemo: "https://complementarmiisapre.cl/",
+     },
     // {
     //     id: 6,
     //     title: "Aplicación Clima",
